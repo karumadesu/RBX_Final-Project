@@ -1,0 +1,150 @@
+body{
+    background-color: #F5F5DC;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 140px;
+    background-color: #013220;
+    margin-bottom: 40px;
+}
+.homeTitle{
+    color: #FFFFFF;
+    width: 370px;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 50px;
+    float: left;
+    word-wrap: break-word;
+    text-align: left;
+    line-height: 50px;
+}
+.homeButtons{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.homeText{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: #F5F5DC;
+    float: left;
+    margin-left: 3px;
+    font-style: italic;
+}
+.homeDivider{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: #F5F5DC;
+    float: left;
+    margin-left: 25px;
+}
+.material-icons{
+    font-size: 24px;
+    padding-top: 20px;
+    color: #F5F5DC;
+    float: left;
+    margin-left: 40px;
+}
+.material-icons.md-36{ 
+    font-size: 36px; 
+}
+.homeLink{
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+.homeLink:link, .homeLink:visited{
+    color: #000000;
+}
+.homeLink:hover{
+    color: #000000;
+}
+.cartContainer{
+    background-color: #F5F5DC;
+    border: 5px solid #013220;
+    border-radius: 16px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.cartTitle{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.cartLabel{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+.cartDetails{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+.cartImage{
+    width: 25%;
+}
+.errorContainer{
+    border: 3px solid #013220;
+    border-radius: 16px;
+    width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.error{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+.removeItem{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    text-decoration: none;
+}
+.removeItem:link, .removeItem:visited{
+    color: #000000 !important;
+}
+.removeItem:hover{
+    color: #d60e0e !important;
+    text-decoration: underline;
+}
+table{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    font-size: 20px;
+    padding: 10px;
+    overflow: hidden;
+}
+tr{
+    border: 3px solid #013220;
+}
+.cartInfo{
+    margin-left: 550px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+.checkout{
+    background-color: #F5F5DC;
+    border: 3px solid #013220;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.checkout:hover{
+    background-color: #013220;
+    color: #FFFFFF;
+}

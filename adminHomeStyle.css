@@ -1,0 +1,105 @@
+body{
+    background-color: #F5F5DC;
+    margin: 0;
+    padding: 0;   
+}
+.header{
+    background-color: #013220;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.headerTitle{
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-left: 20px;
+    padding-top: 20px;
+    font-family: 'Luckiest Guy', cursive;
+	font-size: 50px;
+    text-align: left;
+    float: left;
+}
+.homeButtons{
+    float: right;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+.homeText{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: #F5F5DC;
+    float: left;
+    margin-left: 3px;
+    font-style: italic;
+}
+.material-icons{
+    font-size: 24px;
+    padding-top: 20px;
+    color: #F5F5DC;
+    float: left;
+    margin-left: 40px;
+}
+.material-icons.md-36{ 
+    font-size: 36px; 
+}
+.buttonContainers{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 50%;
+}
+.viewUsers{
+    background: #FFFFFF;
+    border: 2px solid #013220;
+    width: 30%;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: left; 
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;
+    transition: all .3s ease-in-out;
+}
+.viewUsers:hover{
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+    transform: translate3d(0px, -10px, 0px);
+}
+.editProducts{
+    background: #FFFFFF;
+    border: 2px solid #013220;
+    width: 30%;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: right; 
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;
+    transition: all .3s ease-in-out;
+}
+.editProducts:hover{
+  box-shadow: rgba(0, 0, 0, 0.22) 10px 19px 43px;
+  transform: translate3d(0px, -10px, 0px);
+}
+.imagebutton{
+    width: 100%;
+}
+p{
+    color: #013220;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.errorContainer{
+    border: 3px solid #013220;
+    border-radius: 16px;
+    width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.error{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+.errorBox{
+    margin-top: 550px;
+}
